@@ -20,13 +20,7 @@ export default function WobbleCardDemo() {
     <button className="px-14 mt-6 py-4 rounded-full bg-[#1ED760] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
         Resume
       </button>
-    <Image
-      src="/f.webp"
-      width={500}
-      height={500}
-      alt=""
-      className="absolute -right-10 md:-right-[40%] lg:-right-[20%] -bottom-10 object-contain rounded-2xl"
-    />
+ 
   </WobbleCard>
 </div>
 

@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import logo from "../../public/f.jpg"
 const Navbar = () => {
   return (
     <nav className="bg-transparent fixed top-0 left-0 w-3/4">

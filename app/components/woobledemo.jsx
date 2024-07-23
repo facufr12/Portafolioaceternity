@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { WobbleCard } from "./wobble-card";
-import logo from "../../public/f.jpg"
 export default function WobbleCardDemo() {
   return (
 <div className="flex justify-center mt-40 max-w-7xl mx-auto w-full">
@@ -17,8 +16,11 @@ export default function WobbleCardDemo() {
       </p>
     
     </div>
-    <button className="px-14 mt-6 py-4 rounded-full bg-[#1ED760] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200">
-        Resume
+    <button className="p-[3px] relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+        <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+          Lit up borders
+        </div>
       </button>
  
   </WobbleCard>
